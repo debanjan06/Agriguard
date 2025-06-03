@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   agriguard:
     build: .
@@ -20,28 +18,17 @@ services:
   mlflow:
     image: python:3.9-slim
     ports:
-      - "5001:5000"  # Changed port to avoid conflict
+      - "5001:5000"
     volumes:
-      - ./mlruns:/app/mlruns
-      - ./mlflow.db:/app/mlflow.db
+      - mlflow_data:/app/mlruns
+      - mlflow_db:/app
     working_dir: /app
     command: >
       bash -c "pip install mlflow boto3 &&
                mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri sqlite:///mlflow.db --default-artifact-root /app/mlruns"
     restart: unless-stopped
     container_name: mlflow-server
-    
-  model-training:
-    build: .
-    volumes:
-      - ./data:/app/data
-      - ./models:/app/models
-      - ./mlruns:/app/mlruns
-    environment:
-      - PYTHONPATH=/app
-      - MLFLOW_TRACKING_URI=http://mlflow:5000
-    depends_on:
-      - mlflow
-    command: python src/mlops/mlflow_integration.py
-    profiles:
-      - training  # Only run when explicitly requested
+
+volumes:
+  mlflow_data:
+  mlflow_db:
