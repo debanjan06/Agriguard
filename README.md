@@ -68,12 +68,12 @@ docker-compose up -d
 # Access demo
 open http://localhost:8501
 
-MLflow Tracking
+### MLflow Tracking
 # View experiment tracking
 mlflow ui --backend-store-uri agriguard_mlruns --port 5001
 open http://localhost:5001
 
-🔬 Technical Highlights
+### 🔬 Technical Highlights
 Data Science
 
 Real Satellite Data: Integrated Google Earth Engine for authentic remote sensing
@@ -108,7 +108,7 @@ Weather Data: Temperature, humidity, rainfall, and derived risk factors
 Geographic Focus: Karnataka agricultural regions (tomato, cotton, wheat)
 Temporal Range: Full seasonal analysis with monsoon pattern modeling
 
-📁 Project Structure
+### 📁 Project Structure
 AgriGuard/
 ├── src/
 │   ├── data_pipeline/          # Satellite data collection & preprocessing
@@ -124,7 +124,7 @@ AgriGuard/
 ├── Dockerfile                  # Production container
 └── requirements.txt            # Python dependencies
 
-🎥 Demo Features
+### 🎥 Demo Features
 The Streamlit application provides:
 
 Interactive Parameter Adjustment: Real-time disease risk calculation
@@ -132,7 +132,7 @@ Multi-Modal Visualization: Vegetation indices, weather patterns, risk forecasts
 Actionable Recommendations: Treatment suggestions based on prediction confidence
 Professional Interface: Production-ready farmer-facing design
 
-🔬 Research & Development
+### 🔬 Research & Development
 Novel Contributions
 
 Multi-Modal Agricultural AI: First-of-kind satellite + weather fusion for disease detection
@@ -140,8 +140,7 @@ Production-Scale Implementation: Complete MLOps pipeline for agricultural applic
 Domain-Informed Architecture: Integration of plant pathology knowledge in ML design
 Edge-Ready Optimization: Model compression techniques for rural deployment
 
-Future Enhancements
-
+### Future Enhancements
 Real-Time Satellite Integration: Live Sentinel-2 data processing
 Mobile Application: Flutter app for field-based predictions
 IoT Integration: Ground sensor data fusion for enhanced accuracy
