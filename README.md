@@ -111,6 +111,7 @@ open http://localhost:5001
 
 ## 📁 Project Structure
 
+```
 AgriGuard/
 ├── src/
 │   ├── data_pipeline/          # Satellite data collection & preprocessing
@@ -125,6 +126,7 @@ AgriGuard/
 ├── docker-compose.yml          # Multi-service orchestration
 ├── Dockerfile                  # Production container
 └── requirements.txt            # Python dependencies
+```
 
 ## 🎥 Demo Features
 
@@ -167,7 +169,7 @@ The Streamlit application provides:
 
 **Developer**: Debanjan Shil  
 **GitHub**: [@debanjan06](https://github.com/debanjan06)  
-**LinkedIn**: [Connect with me](https://www.linkedin.com/in/debanjan06)  
+**LinkedIn**: [Connect with me](https://linkedin.com/in/debanjan006)  
 
 ---
 
