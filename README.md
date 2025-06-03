@@ -1,4 +1,4 @@
-# 🌾 AgriGuard: AI-Powered Crop Disease Detection
+# 🌾 AgriGuard: Multi-Modal Crop Disease Detection System
 
 **Multi-modal deep learning system for early crop disease detection using satellite imagery and weather data**
 
@@ -177,5 +177,3 @@ The Streamlit application provides:
 
 ⭐ **Star this repository if you find it useful for agricultural AI research!**
 ```
-
-Copy this entire markdown content and paste it as your `README.md` file. It's designed to impress recruiters and showcase your technical skills comprehensively!
