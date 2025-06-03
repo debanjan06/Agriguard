@@ -49,6 +49,7 @@ def calculate_vegetation_indices(image):
 ## 🏗️ Technical Architecture
 
 ### Multi-Modal CNN Design
+```
 Input Modalities:
 ├── Spatial Branch: 4-band satellite imagery (32×32×4)
 ├── Spectral Branch: Vegetation indices (NDVI, EVI, SAVI, REP)
@@ -61,6 +62,7 @@ Architecture:
 └── Fusion Classifier: 3-layer MLP → 3 classes (healthy, stressed, diseased)
 
 Total Parameters: 399,000 (1.6MB model size)
+```
 
 ### Data Pipeline
 - **Satellite Processing**: Automated Sentinel-2 data collection and preprocessing
@@ -90,11 +92,14 @@ Total Parameters: 399,000 (1.6MB model size)
 ## 🚀 Quick Start
 
 ### Prerequisites
+```bash
 - Docker Desktop
 - Python 3.9+
 - Google Earth Engine account (for data collection)
+```
 
 ### Installation & Demo
+```bash
 # Clone repository
 git clone https://github.com/debanjan06/Agriguard.git
 cd Agriguard
@@ -107,17 +112,10 @@ open http://localhost:8501
 
 # View MLflow experiment tracking
 open http://localhost:5001
-# Start complete system with Docker Compose
-docker-compose up -d
-
-# Access interactive demo
-open http://localhost:8501
-
-# View MLflow experiment tracking
-open http://localhost:5001
 ```
 
 ### Manual Setup (Alternative)
+```bash
 # Create environment
 conda create -n agriguard python=3.9
 conda activate agriguard
@@ -130,6 +128,7 @@ earthengine authenticate
 
 # Run Streamlit demo
 streamlit run app/agriguard_demo.py
+```
 
 ## 🔬 Research Methodology
 
@@ -148,6 +147,7 @@ streamlit run app/agriguard_demo.py
 - **Atmospheric Correction**: Sen2Cor algorithm
 
 ### Machine Learning Pipeline
+```python
 # Model training workflow
 from src.models.multi_modal_cnn import train_working_model
 from src.data_pipeline.satellite_collector import AgriGuardDataCollector
@@ -161,8 +161,11 @@ model, label_encoder = train_working_model()
 
 # Evaluation and deployment
 docker-compose up production
+```
 
 ## 📁 Project Structure
+
+```
 AgriGuard/
 ├── src/                           # Source code
 │   ├── data_pipeline/            # Satellite data collection & preprocessing
@@ -185,6 +188,8 @@ AgriGuard/
 ├── docker-compose.yml            # Multi-service orchestration
 ├── Dockerfile                    # Production container
 └── requirements.txt              # Python dependencies
+```
+
 ## 🛰️ Earth Observation Features
 
 ### Advanced Spectral Analysis
@@ -319,8 +324,7 @@ The Streamlit application provides:
 **Developer**: [Your Name]  
 **Email**: [your.email@domain.com]  
 **LinkedIn**: [Your LinkedIn Profile]  
-**Research Gate**: [Your Research Profile]  
-**ORCID**: [Your ORCID ID]
+
 
 ### Open to Collaboration
 - 🤝 **Research Partnerships**: Academic institutions and research organizations
@@ -340,11 +344,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Google Earth Engine**: Satellite data processing platform and community support
 - **Open Source Community**: PyTorch, MLflow, and geospatial Python ecosystem
 - **Agricultural Experts**: Domain knowledge and validation support
-- 
-
-**🌾 Advancing agricultural sustainability through innovative remote sensing and AI 🛰️**
-
-*Built with precision, deployed with purpose, designed for global impact*
-
-
-
