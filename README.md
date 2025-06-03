@@ -291,17 +291,6 @@ The Streamlit application provides:
 - **Federated Learning**: Privacy-preserving training across distributed farms
 - **Causal Inference**: Understanding cause-effect relationships in agricultural systems
 
-## 📄 Publications & Presentations
-
-### Research Papers (In Preparation)
-- *"Multi-Modal Deep Learning for Agricultural Remote Sensing: A Comprehensive Study"* - Remote Sensing of Environment
-- *"Early Crop Disease Detection Using Sentinel-2 Time Series and Weather Data Fusion"* - IEEE TGRS
-
-### Conference Submissions
-- **IGARSS 2025**: International Geoscience and Remote Sensing Symposium
-- **ISPRS 2025**: International Society for Photogrammetry and Remote Sensing
-- **Climate Change AI Workshop**: NeurIPS 2025
-
 ## 👨‍💻 Technical Skills Demonstrated
 
 ### Remote Sensing Expertise
@@ -315,15 +304,15 @@ The Streamlit application provides:
 - **Production Deployment**: Containerization, health monitoring, scalable serving
 
 ### Software Development
-- **Programming**: Python, JavaScript, SQL, Bash scripting
+- **Programming**: Python, JavaScript, Bash scripting
 - **Web Development**: Streamlit, Flask, interactive dashboards
 - **DevOps**: Docker, Git, CI/CD, infrastructure as code
 
 ## 📞 Contact & Collaboration
 
-**Developer**: [Your Name]  
-**Email**: [your.email@domain.com]  
-**LinkedIn**: [Your LinkedIn Profile]  
+**Developer**: Debanjan Shil 
+**Email**: debanjanshil66@gmail.com  
+**LinkedIn**: https://www.linkedin.com/in/debanjan06
 
 
 ### Open to Collaboration
@@ -332,7 +321,6 @@ The Streamlit application provides:
 - 🌍 **International Projects**: Global food security and climate adaptation initiatives
 - 📚 **Educational Outreach**: Workshops and training in agricultural remote sensing
 
----
 
 ## 📄 License
 
