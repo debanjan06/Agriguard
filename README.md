@@ -169,7 +169,7 @@ The Streamlit application provides:
 
 **Developer**: Debanjan Shil  
 **GitHub**: [@debanjan06](https://github.com/debanjan06)  
-**LinkedIn**: [Connect with me](https://linkedin.com/in/debanjan006)  
+**LinkedIn**: [Connect with me](https://www.linkedin.com/in/debanjan06/)
 
 ---
 
