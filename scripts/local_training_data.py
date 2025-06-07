@@ -337,24 +337,6 @@ def main():
     print("✅ COMPREHENSIVE TRAINING DATASET READY!")
     print("=" * 60)
     
-    print("\n🎯 What You Now Have:")
-    print("  📊 1000 labeled training samples")
-    print("  🛰️ Real satellite baseline statistics")
-    print("  🌤️ Realistic weather-disease correlations")
-    print("  🦠 6 different disease types with varying severity")
-    print("  📈 Comprehensive visualizations and analysis")
-    print("  🗓️ Full seasonal coverage")
-    
-    print("\n🔥 Why This Dataset is Amazing:")
-    print("  ✅ Based on your actual satellite data statistics")
-    print("  ✅ Realistic agricultural disease patterns")
-    print("  ✅ Multi-modal features (weather + spectral)")
-    print("  ✅ Proper class distribution for ML training")
-    print("  ✅ Domain expert knowledge encoded")
-    
-    print("\n🚀 Ready for CNN Training Tomorrow!")
-    print("You now have a production-ready dataset that 99% of candidates won't have!")
-    
     return df
 
 if __name__ == "__main__":
