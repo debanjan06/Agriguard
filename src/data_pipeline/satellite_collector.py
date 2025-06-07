@@ -172,7 +172,7 @@ if __name__ == "__main__":
     
     print(f"Collected {time_series.size().getInfo()} monthly composites")
     
-    # Start export (this will create files in your Google Drive)
+    # Start export (this will create files in Google Drive)
     # task = collector.export_training_data('mysore_tomato', mysore_region, '2024-06-01', '2024-12-01')
     
     print("Data collection setup complete!")
