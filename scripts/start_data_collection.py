@@ -244,35 +244,14 @@ def main():
         print("✅ DATA COLLECTION PIPELINE COMPLETED!")
         print("=" * 60)
         
-        print("\n🎉 What you now have:")
-        print("  📡 Satellite data export started (check Google Drive)")
-        print("  🌤️  6 months of synthetic weather data with disease risk")
-        print("  🗂️  Proper data structure for ML training")
-        print("  📊 Disease risk analysis and statistics")
-        
-        print("\n🔥 Why this makes you a top 1% candidate:")
-        print("  ✅ Real satellite data pipeline (not just tutorials)")
-        print("  ✅ Domain-specific features (disease risk factors)")
-        print("  ✅ Multi-modal data fusion capability")
-        print("  ✅ Production-ready code structure")
-        print("  ✅ Agricultural domain knowledge")
-        
-        print("\n📋 Next Steps:")
-        print("  ⏳ Wait 15 minutes for satellite data download")
-        print("  📊 Run data exploration notebook")
-        print("  🧠 Design CNN architecture tomorrow")
-        print("  📱 Post about your progress on LinkedIn")
-        print("  📚 Read 1 research paper on crop disease detection")
-        
         print(f"\n🚀 Satellite export task: {task.id}")
         print("📱 Check Google Drive folder: AgriGuard_Data")
         
     except Exception as e:
         print(f"\n❌ Error occurred: {e}")
         print("💡 Troubleshooting:")
-        print("  - Make sure you're connected to internet")
         print("  - Verify Google Earth Engine authentication")
-        print("  - Check if you have Google Drive access")
+        print("  - Check if Google Drive access")
 
 if __name__ == "__main__":
     main()
