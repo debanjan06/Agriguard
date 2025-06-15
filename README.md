@@ -11,7 +11,7 @@
 
 Crop diseases cause 20-40% yield losses globally. Traditional detection methods rely on visual inspection after symptoms appear, making treatment less effective. AgriGuard provides **2-3 weeks early warning** using AI analysis of satellite and weather data.
 
-## 🚀 Key Achievements
+## Key Achievements
 
 - **97.5% Classification Accuracy** on multi-class disease detection
 - **205 Real Sentinel-2 Images** processed via Google Earth Engine
@@ -150,7 +150,7 @@ The Streamlit application provides:
 - **IoT Integration**: Ground sensor data fusion for enhanced accuracy
 - **Multi-Crop Expansion**: Support for diverse agricultural systems
 
-## 🏆 Technical Stack
+## Technical Stack
 
 **Core Technologies**
 - PyTorch Lightning for model training
@@ -165,7 +165,7 @@ The Streamlit application provides:
 - Scikit-learn for preprocessing
 - Matplotlib/Plotly for visualization
 
-## 📞 Contact
+## Author
 
 **Developer**: Debanjan Shil  
 **GitHub**: [@debanjan06](https://github.com/debanjan06)  
