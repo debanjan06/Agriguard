@@ -306,6 +306,3 @@ if __name__ == "__main__":
             
         print(f"Final test prediction: {label_encoder.inverse_transform(pred.numpy())[0]}")
         print(f"Confidence: {probs.max().item():.3f}")
-        
-        print("\nAgriGuard Multi-Modal CNN is ready for deployment!")
-        print("You can now create inference pipeline and demo applications.")
