@@ -19,7 +19,7 @@ Crop diseases cause 20-40% yield losses globally. Traditional detection methods 
 - **Production-Ready Deployment** with Docker containerization
 - **Complete MLOps Pipeline** with MLflow tracking and monitoring
 
-### 🎥 [**Watch Live Demo →**](https://drive.google.com/file/d/1yU2aCFyjbAG1tYuG3XVn9tyiamjywWDO/view?usp=drive_link)
+### 🎥 <a href="https://drive.google.com/file/d/1yU2aCFyjbAG1tYuG3XVn9tyiamjywWDO/view?usp=drive_link" target="_blank"><strong>Watch Live Demo →</strong></a>
 *See AgriGuard in action: real-time disease detection and risk analysis*
 
 ## 🏗️ Technical Architecture
@@ -70,6 +70,7 @@ docker-compose up -d
 
 # Access demo
 open http://localhost:8501
+```
 
 ### MLflow Tracking
 ```bash
@@ -171,6 +172,7 @@ The Streamlit application provides:
 ## Author
 
 **Developer**: Debanjan Shil  
+**Email**: [debanjanshil66@gmail.com](mailto:debanjanshil66@gmail.com)  
 **GitHub**: [@debanjan06](https://github.com/debanjan06)  
 **LinkedIn**: [Connect with me](https://www.linkedin.com/in/debanjan06/)
 
