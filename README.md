@@ -19,6 +19,9 @@ Crop diseases cause 20-40% yield losses globally. Traditional detection methods 
 - **Production-Ready Deployment** with Docker containerization
 - **Complete MLOps Pipeline** with MLflow tracking and monitoring
 
+### 🎥 [**Watch Live Demo →**](https://drive.google.com/file/d/1yU2aCFyjbAG1tYuG3XVn9tyiamjywWDO/view?usp=drive_link)
+*See AgriGuard in action: real-time disease detection and risk analysis*
+
 ## 🏗️ Technical Architecture
 
 ### Model Design
@@ -176,4 +179,3 @@ The Streamlit application provides:
 **Built for precision agriculture and agricultural AI research. Designed to scale from individual farms to national agricultural monitoring systems.**
 
 ⭐ **Star this repository if you find it useful for agricultural AI research!**
-```
