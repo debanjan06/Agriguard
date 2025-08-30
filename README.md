@@ -19,7 +19,7 @@ Crop diseases cause 20-40% yield losses globally. Traditional detection methods 
 - **Production-Ready Deployment** with Docker containerization
 - **Complete MLOps Pipeline** with MLflow tracking and monitoring
 
-### 🎥 <a href="https://drive.google.com/file/d/1yU2aCFyjbAG1tYuG3XVn9tyiamjywWDO/view?usp=drive_link" target="_blank"><strong>Watch Live Demo →</strong></a>
+### 🎥 [**Watch Live Demo →**](https://drive.google.com/file/d/1yU2aCFyjbAG1tYuG3XVn9tyiamjywWDO/view?usp=drive_link)
 *See AgriGuard in action: real-time disease detection and risk analysis*
 
 ## 🏗️ Technical Architecture
